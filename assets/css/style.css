@@ -57,7 +57,7 @@ body {
     border: 1px solid var(--contrast);
 }
 
-.section#home {
+.home-container {
     height: 100vh;
     background: url(/assets/img/neural_network_fade.png);
     background-size: cover;
@@ -109,13 +109,28 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
 }
 
 .self-image img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
+    max-width: 100%;
+}
+
+.skills {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    min-height: 100vh;
+    margin: 1.5rem;
+}
+
+.skill-box {
+    text-align: center;
+    padding: 1.5rem 2rem;
+    border: 1px solid var(--contrast);
+}
+
+.skill-box span {
+    font-weight: 700;
 }
 
 
