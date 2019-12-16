@@ -1,0 +1,110 @@
+:root {
+    --base: #d3d3d3;
+    --contrast: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(230, 230, 230, 0.8);
+    --theme-one: #82ffcd;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--base);
+}
+
+.btn {
+    text-decoration: none;
+    color: var(--contrast);
+    padding: 0.8rem;
+    border-radius: 50px;
+    border: 1px solid var(--contrast);
+    transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--theme-one);
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.top-nav {
+    display: flex;
+    background: var(--contrast);
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0;
+    padding-right: 3rem;
+}
+
+.top-nav a {
+    display: block;
+    margin: 0.5rem;
+    background: var(--base);
+}
+
+.top-nav a:hover  {
+}
+
+.section {
+    border: 1px solid var(--contrast);
+}
+
+.section#home {
+    height: 100vh;
+    background: url(/assets/img/neural_network_fade.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-title {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: start;
+    justify-content: center;
+    padding-left: 10rem;
+    padding-top: 5rem;
+}
+
+.home-title h1 {
+    font-size: 4rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.home-title h3 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.footer {
+
+}
+
+@media (max-width: 700px) {
+    .top-nav {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 500px) {
+    .top-nav {
+        flex-flow: column wrap;
+        padding: 0;
+    }
+
+    .top-nav a {
+        text-align: center;
+        padding: 10px;
+    }
+}
