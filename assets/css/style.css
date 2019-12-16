@@ -87,6 +87,39 @@ body {
     margin-top: 0;
 }
 
+.about-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    min-height: 100vh;
+}
+
+.self-promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10rem;
+}
+
+.self-promo p {
+    font-size: 1.3rem;
+}
+
+.self-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.self-image img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
 .footer {
 
 }
