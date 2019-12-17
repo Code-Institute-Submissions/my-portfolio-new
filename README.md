@@ -71,9 +71,9 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Helpful Resources
-Responsive Navbar: https://codepen.io/tutsplus/pen/ZdRdZM
-Traversy Grid Website: https://codepen.io/bradtraversy/pen/gvMGyB
-Various Grid Positioning Rules: https://css-tricks.com
+Responsive Navbar: https://codepen.io/tutsplus/pen/ZdRdZM <br />
+Traversy Grid Website: https://codepen.io/bradtraversy/pen/gvMGyB <br />
+Various Grid Positioning Rules: https://css-tricks.com <br />
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
