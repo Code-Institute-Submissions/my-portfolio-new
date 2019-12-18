@@ -208,7 +208,7 @@ h3 {
 .form-container {
     background: var(--light);
     margin: 0 20vw;
-    margin-top: 50px;
+    margin-top: 100px;
     padding: 5vh 0;
     border: 1px solid var(--highlight);
 }
@@ -270,17 +270,25 @@ textarea {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 1fr 1fr;
-    margin: 5px 5vw;
+    margin: 0 5vw;
+    margin-bottom: 10px;
     /* align-items: center; */
 }
 
-.radio-container label {
+#radio-label {
+    margin-top: 10px;
+}
+
+.radio-container h4 {
+    margin-left: 0;
+}
+/* .radio-container label {
     column: 2;
 }
 
 .radio-container input {
     align-content: left;
-}
+} */
 
 #form-button {
     margin: 0;
