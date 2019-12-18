@@ -171,7 +171,7 @@ h3 {
 
 .projects-container {
     display: grid;
-    grid-gap: 50px;
+    grid-gap: 70px;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 70px;
     min-height: calc(100vh - 15vh);
@@ -219,7 +219,7 @@ h3 {
 
 form {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 16px;
     grid-template-columns: 2fr 1fr;
     /* padding: 20px; */
 }
@@ -228,7 +228,8 @@ form label {
     display: block;
 }
 
-form p {
+form p,
+form h4 {
     margin: 0 5vw;
     /* padding: 0 1em; */
 }
@@ -252,23 +253,46 @@ textarea {
     width: 100%;
     border: 1px solid var(--contrast);
     line-height: 1.4em;
-    padding: 0 10px;
+    padding: 2px 10px;
 }
 
 input,
 textarea {
     font-family: inherit;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 ::placeholder {
     color: var(--highlight);
 }
 
+.radio-container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    margin: 5px 5vw;
+    /* align-items: center; */
+}
+
+.radio-container label {
+    column: 2;
+}
+
+.radio-container input {
+    align-content: left;
+}
+
+#form-button {
+    margin: 0;
+    margin-right: 5vw;
+    position: relative;
+}  
+
 button {
   background: var(--base);
+  position: absolute;
+  bottom: 0;
 }
-  
 
 button:hover, button:focus {
   background: var(--theme-one);
