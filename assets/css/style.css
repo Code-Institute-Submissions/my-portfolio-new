@@ -77,6 +77,14 @@ h3 {
     background: var(--base);
 }
 
+.toggle {
+    display: none;
+}
+
+.toggle a {
+    font-size: 30px;
+}
+
 .section {
     border: 1px solid var(--contrast);
 }
@@ -254,6 +262,7 @@ textarea {
     border: 1px solid var(--contrast);
     line-height: 1.4em;
     padding: 2px 10px;
+    transition: 0.2s ease-in-out;
 }
 
 input,
@@ -312,10 +321,50 @@ button:hover, button:focus {
 
 }
 
-@media (max-width: 700px) {
-    .top-nav {
+@media (max-width: 800px) {
+    /* .top-nav {
         justify-content: space-around;
+    } */
+
+    /* .top-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+} */
+
+    .top-nav {
+        flex-flow: column wrap;
+        padding: 0;
+        background: transparent;
     }
+
+    .top-nav a {
+        background: transparent;
+    }
+
+    /* .top-nav a {
+        text-align: center;
+        padding: 10px;
+    } */
+
+    .toggle {
+        display: block;
+        flex: 1;
+        text-align: right;
+        /* order: 1; */
+    }
+
+    .btn.menu-item {
+        width: 100%;
+        text-align: center;
+        order: 2;
+        display: none;
+    }
+
+    .menu-item.active {
+        display: block;
+}
 
     .projects-container {
         grid-template-columns: repeat(2, 1fr);
