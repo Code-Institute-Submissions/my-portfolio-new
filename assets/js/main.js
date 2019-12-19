@@ -16,11 +16,13 @@ $('.navbar a, .home-title a').on('click', function (e) {
 // Collapse Navbar
 
 $(function() {
-    $(".toggle").on("click", function() {
+    $(".toggle").on("click", function(e) {
         if ($(".menu-item").hasClass("active")) {
+            e.preventDefault();
             $(".menu-item").removeClass("active");
             $(this).find("a").html("<i class='fas fa-bars'></i>");
         } else {
+            e.preventDefault();
             $(".menu-item").addClass("active");
             $(this).find("a").html("<i class='fas fa-times'></i>");
         }

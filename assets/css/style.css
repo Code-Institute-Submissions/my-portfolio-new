@@ -53,7 +53,7 @@ h3 {
 
 .wrapper {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 0;
 }
 
 
@@ -107,7 +107,7 @@ h3 {
     height: 100vh;
     align-items: start;
     justify-content: center;
-    padding-left: 10vw;
+    padding-left: 8vw;
     padding-top: 10rem;
 }
 
@@ -116,6 +116,7 @@ h3 {
     grid-template-columns: 2fr 1fr;
     min-height: 100vh;
     margin-right: 50px;
+    padding-top: 50px;
 }
 
 .self-promo {
@@ -135,10 +136,12 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 100px 0;
 }
 
 .self-image img {
-    max-width: 100%;
+    max-width: 80%;
+    /* padding: 100px 0; */
 }
 /* 
 .skills-container {
@@ -386,8 +389,27 @@ button:hover, button:focus {
         padding-left: 5vw;
     }
 
+    .home-title h1 {
+        font-size: 4.3rem;
+    }
+
     .home-title h3 {
         margin-bottom: 2rem;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+        max-height: 100vh;
+        margin: 0;
+        padding-top: 30px;
+    }
+
+    .self-image {
+        padding: 0;
+    }
+
+    .self-image img{
+        height: 50vh;
     }
 
     .skills-container {
@@ -451,7 +473,7 @@ button:hover, button:focus {
     } */
 
     .home-title {
-        padding-top: 5rem;
+        padding-top: 11rem;
         padding-left: 5vw;
         line-height: 1;
     }
@@ -459,17 +481,30 @@ button:hover, button:focus {
     .home-title h1 {
         margin-top: 0;
         margin-bottom: 25px;
+        font-size: 4rem;
     }
 
     .home-title h3 {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
+        font-size: 1.5rem;
+        padding-right: 85px;
     }
 
     .about-container {
         grid-template-columns: 1fr;
-        max-height: calc(100vh - 10vh);
+        max-height: 100vh;
         margin: 0;
-        padding-top: 60px;
+        padding-top: 30px;
+    }
+
+    .self-promo {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .self-image img{
+        height: 50vh;
+        padding-bottom: 50px;
     }
 
     .skills-container {
@@ -483,6 +518,16 @@ button:hover, button:focus {
         font-weight: 600;
         margin: 20px 0;
 
+    }
+
+    .skill-box {
+        height: 60vh;
+        padding-top: 30px;
+    }
+
+    .skills-list {
+        line-height: 2rem;
+        font-size: 1.2rem;
     }
 
     .projects-container {
