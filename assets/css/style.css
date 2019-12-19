@@ -98,7 +98,6 @@ h3 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* border-bottom: 2px solid var(--highlight-alpha); */
 }
 
 .home-title {
@@ -417,15 +416,11 @@ button:hover, button:focus {
 }
 
 @media (max-width: 500px) {
+
     .top-nav {
         flex-flow: column wrap;
         padding: 0;
     }
-
-    /* .top-nav a {
-        text-align: center;
-        padding: 10px;
-    } */
 
     .home-title {
         padding-top: 11rem;
