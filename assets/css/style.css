@@ -308,6 +308,7 @@ button:hover, button:focus {
     background: var(--contrast);
     height: 50px;
     justify-content: center;
+    border-top: 1px solid var(--light);
 }
 
 .footer-container {
@@ -446,6 +447,15 @@ button:hover, button:focus {
         margin: 0 5vw;
     }
 
+    .footer-container span {
+        margin-top: 10px;
+    }
+
+    .social-box a {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -545,11 +555,15 @@ button:hover, button:focus {
     }
 
     .footer-container span {
-        margin: 5px 20px 0 20px;
+        margin: 12px 20px 0 20px;
         font-size: 0.8rem;
     }
 
     .social-box {
         margin: 0 20px;
+    }
+
+    .social-box a {
+        padding-right: 0;
     }
 }
