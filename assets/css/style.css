@@ -241,6 +241,7 @@ form h4 {
 }
 
 input[type=text]:focus,
+input[type=email]:focus,
 textarea:focus {
   outline: 2px solid var(--theme-one);
 }
@@ -437,7 +438,8 @@ button:hover, button:focus {
     }
 
     .contact-container {
-        padding-top: 35vh;
+        max-height: 100vh - 50px;
+        padding-top: 10vh;
     }
 
     .form-container {
@@ -517,7 +519,37 @@ button:hover, button:focus {
     }
 
     .contact-container {
-        min-height: 100vh;
-        padding-top: 60px;
+        padding-top: 10vh;
+        margin-bottom: 20px;
+    }
+
+    .form-container {
+        padding: 3vh 0;
+    }
+
+    .form-container h3 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #radio-label {
+        width: 100%;
+    }
+
+    form {
+        grid-gap: 10px;
+    }
+
+    #form-button {
+        margin-bottom: 5px;
+    }
+
+    .footer-container span {
+        margin: 5px 20px 0 20px;
+        font-size: 0.8rem;
+    }
+
+    .social-box {
+        margin: 0 20px;
     }
 }
