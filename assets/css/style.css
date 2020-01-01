@@ -139,7 +139,9 @@ h3 {
 }
 
 .self-image img {
-    max-width: 80%;
+    /* max-width: 80%; */
+    width: 100%;
+    border-radius: 50%;
 }
 
 .skills-container {
@@ -403,10 +405,16 @@ button:hover, button:focus {
 
     .self-image {
         padding: 0;
+        width: 50%;
+        margin-left: 25%;
     }
 
     .self-image img{
-        height: 50vh;
+        /* height: 50vh; */
+        display: block;
+        width: 100%;
+        height: auto;
+        align-items: center;
     }
 
     .skills-container {
@@ -503,7 +511,7 @@ button:hover, button:focus {
     }
 
     .self-image img{
-        height: 50vh;
+        /* height: 50vh; */
         padding-bottom: 50px;
     }
 
