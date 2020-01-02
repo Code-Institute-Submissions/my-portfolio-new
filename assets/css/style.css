@@ -103,7 +103,7 @@ h3 {
 .home-title {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
     align-items: start;
     justify-content: center;
     padding-left: 8vw;
@@ -388,7 +388,7 @@ button:hover, button:focus {
     }
 
     .home-title {
-        padding-top: 15rem;
+        padding-top: 60vh;
         padding-left: 5vw;
     }
 
@@ -485,7 +485,7 @@ button:hover, button:focus {
     }
 
     .home-title {
-        padding-top: 11rem;
+        padding-top: 40vh;
         padding-left: 5vw;
         line-height: 1;
     }
