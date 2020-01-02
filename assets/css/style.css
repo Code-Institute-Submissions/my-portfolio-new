@@ -485,7 +485,7 @@ button:hover, button:focus {
     }
 
     .home-title {
-        padding-top: 40vh;
+        padding-top: 35vh;
         padding-left: 5vw;
         line-height: 1;
     }
@@ -507,6 +507,7 @@ button:hover, button:focus {
         /* max-height: 100vh; */
         margin: 0;
         padding-top: 30px;
+        padding-bottom: 50px;
     }
 
     .self-promo {
@@ -526,7 +527,7 @@ button:hover, button:focus {
     .skills-container {
         min-height: 100vh;
         grid-template-columns: 1fr;
-        padding: 80px 20px 20px 20px;
+        padding: 60px 20px 20px 20px;
     }
 
     .skills-container h3 {
