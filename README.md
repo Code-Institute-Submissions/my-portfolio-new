@@ -1,8 +1,11 @@
-# Your Project's Name
+# Ronan Casey - Personal Portfolio Website
 
-One or two paragraphs providing an overview of your project.
+<!-- One or two paragraphs providing an overview of your project. -->
 
-Essentially, this part is your sales pitch.
+Project 1 - User Centric Front End Development (Code Institute 2020)
+
+<!-- Essentially, this part is your sales pitch. -->
+The purpose of this website is to provide a best first impression when visited by potential employers or collaborators.
  
 ## UX
  

@@ -118,6 +118,19 @@ h3 {
     padding-top: 50px;
 }
 
+.about-heading {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 8vw;
+}
+
+.about-heading h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    border-top: 1px solid var(--theme-one);
+}
+
 .self-promo {
     display: flex;
     flex-direction: column;
@@ -129,6 +142,7 @@ h3 {
 
 .self-promo p {
     font-size: 1.3rem;
+    font-weight: 300;
 }
 
 .self-image {
@@ -152,6 +166,20 @@ h3 {
   margin: 0 50px;
   /* padding-top: 18vh; */
   padding-top: 90px;
+}
+
+.skills-heading {
+    position: absolute;
+    margin: 0 -50px;
+    margin-top: 20px;
+    margin-left: 8vw;
+}
+
+.skills-heading h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    border-top: 1px solid var(--theme-one);
 }
 
 .skill-box {
