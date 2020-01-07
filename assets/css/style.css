@@ -264,7 +264,7 @@ h3 {
 
 .form-container {
     background: var(--light);
-    margin: 0 20vw;
+    margin: 0 25%;
     margin-top: 100px;
     /* padding: 5vh 0; */
     border: 1px solid var(--highlight);
@@ -449,6 +449,10 @@ button:hover, button:focus {
         margin-bottom: 2rem;
     }
 
+    .about-heading {
+        margin-left: 5vw;
+    }
+
     .about-container {
         /* grid-template-columns: 1fr; */
         /* max-height: 100vh; */
@@ -477,6 +481,10 @@ button:hover, button:focus {
         align-items: center;
     }
 
+    .skills-heading {
+        margin-left: 5vw;
+    }
+
     .skills-container {
         padding: 0 20px;
         margin: 0;
@@ -496,6 +504,10 @@ button:hover, button:focus {
     .skills-list {
         line-height: 2rem;
         font-size: 1.2rem;
+    }
+
+    .projects-heading {
+        margin-left: 5vw;
     }
 
     .projects-container {
@@ -519,7 +531,7 @@ button:hover, button:focus {
     }
 
     .form-container {
-        margin: 0 5vw;
+        margin: 0 5%;
     }
 
     .footer-container span {
@@ -558,11 +570,18 @@ button:hover, button:focus {
         padding-right: 85px;
     }
 
+    .about-heading {
+        margin: 0;
+        padding-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
     .about-container {
         /* grid-template-columns: 1fr; */
         /* max-height: 100vh; */
         margin: 0;
-        padding-top: 30px;
+        padding-top: 0;
         padding-bottom: 50px;
     }
 
@@ -580,10 +599,17 @@ button:hover, button:focus {
         /* padding-bottom: 50px; */
     }
 
+    .skills-heading {
+        margin: 0;
+        padding-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
     .skills-container {
         min-height: 100vh;
         grid-template-columns: 1fr;
-        padding: 60px 20px 20px 20px;
+        padding: 0 20px 50px 20px;
     }
 
     .skills-container h3 {
@@ -603,6 +629,13 @@ button:hover, button:focus {
         font-size: 1.2rem;
     }
 
+    .projects-heading {
+        margin: 0;
+        padding-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
     .projects-container {
         min-height: 100vh;
         grid-template-columns: 1fr;
@@ -614,7 +647,7 @@ button:hover, button:focus {
     }
 
     .form-container {
-        padding: 3vh 0;
+        padding: 3% 0;
     }
 
     .form-container h3 {
