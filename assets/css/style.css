@@ -112,7 +112,6 @@ h3 {
 
 .about-heading {
     /* position: absolute;*/
-    
     padding-top: 80px;
     margin-left: 8vw;
 }
@@ -123,6 +122,7 @@ h3 {
     font-weight: 300;
     display: inline-block;
     border-top: 1px solid var(--theme-one);
+    padding-top: 5px;
     margin-bottom: 0;
 }
 
@@ -162,9 +162,6 @@ h3 {
 }
 
 .skills-heading {
-    /* position: absolute; */
-    /* margin: 0 -50px; */
-    /* margin-top: 20px; */
     padding-top: 80px;
     margin-left: 8vw;
     margin-bottom: 50px;
@@ -176,6 +173,7 @@ h3 {
     font-weight: 300;
     display: inline-block;
     border-top: 1px solid var(--theme-one);
+    padding-top: 5px;
 }
 
 .skills-container {
@@ -184,8 +182,6 @@ h3 {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   min-height: 70vh;
   margin: 0 50px;
-  /* padding-top: 18vh; */
-  /* padding-top: 90px; */
 }
 
 .skill-box {
@@ -210,13 +206,28 @@ h3 {
     display: block;
 }
 
+.projects-heading {
+    padding-top: 80px;
+    margin-left: 8vw;
+    margin-bottom: 50px;
+}
+
+.projects-heading h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    display: inline-block;
+    border-top: 1px solid var(--theme-one);
+    padding-top: 5px;
+}
+
 .projects-container {
     display: grid;
     grid-gap: 70px;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 70px;
-    min-height: calc(100vh - 15vh);
-    padding-top: 100px;
+    min-height: 70vh;
+    /* padding-top: 100px; */
 }
 
 .project-box {
@@ -243,7 +254,7 @@ h3 {
 
 .contact-container {
     max-height: 100vh - 50px;
-    padding-top: 100px;
+    /* padding-top: 100px; */
     margin-bottom: 50px;
 }
 
@@ -255,18 +266,18 @@ h3 {
     background: var(--light);
     margin: 0 20vw;
     margin-top: 100px;
-    padding: 5vh 0;
+    /* padding: 5vh 0; */
     border: 1px solid var(--highlight);
 }
 
 .form-container h3 {
-    margin-bottom: 3rem;
+    margin: 3rem 0;
 }
 
 form {
     display: grid;
     grid-gap: 16px;
-    grid-template-columns: 2fr 1fr;
+   /*  grid-template-columns: 2fr 1fr; */
 }
 
 form label {
@@ -329,9 +340,10 @@ textarea {
 }
 
 #form-button {
-    margin: 0;
-    margin-right: 5vw;
-    position: relative;
+    /* margin: 0; */
+    /* margin-right: 5vw; */
+    /* position: relative; */
+    text-align: center;
 }
 
 #form-button > button.btn:hover {
@@ -340,8 +352,11 @@ textarea {
 
 button {
   background: var(--base);
-  position: absolute;
-  bottom: 0;
+  /* position: absolute; */
+  /* bottom: 0; */
+  margin-bottom: 16px;
+  width: 50%;
+  /* text-align: center; */
 }
 
 button:hover, button:focus {
@@ -435,16 +450,23 @@ button:hover, button:focus {
     }
 
     .about-container {
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
         /* max-height: 100vh; */
+        display: flex;
+        flex-direction: column;
         margin: 0;
         padding-top: 30px;
     }
 
+    .self-promo {
+        order: 2;
+    }
     .self-image {
+        order: 1;
         padding: 0;
         width: 50%;
         margin-left: 25%;
+        margin-bottom: 50px;
     }
 
     .self-image img{
@@ -456,7 +478,7 @@ button:hover, button:focus {
     }
 
     .skills-container {
-        padding: 60px 20px 0 20px;
+        padding: 0 20px;
         margin: 0;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -480,7 +502,7 @@ button:hover, button:focus {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
         margin: 0;
-        padding: 80px 20px 0 20px;
+        padding: 0 20px;
     }
 
     .project-box {
@@ -537,7 +559,7 @@ button:hover, button:focus {
     }
 
     .about-container {
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
         /* max-height: 100vh; */
         margin: 0;
         padding-top: 30px;
