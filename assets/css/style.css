@@ -110,17 +110,10 @@ h3 {
     padding-top: 60vh;
 }
 
-.about-container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    min-height: 100vh;
-    margin-right: 50px;
-    padding-top: 50px;
-}
-
 .about-heading {
-    position: absolute;
-    margin-top: 20px;
+    /* position: absolute;*/
+    
+    padding-top: 80px;
     margin-left: 8vw;
 }
 
@@ -128,7 +121,17 @@ h3 {
     font-family: "Raleway", sans-serif;
     font-size: 2.5rem;
     font-weight: 300;
+    display: inline-block;
     border-top: 1px solid var(--theme-one);
+    margin-bottom: 0;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    min-height: 80vh;
+    margin-right: 50px;
+    /* padding-top: 50px; */
 }
 
 .self-promo {
@@ -158,28 +161,31 @@ h3 {
     border-radius: 50%;
 }
 
-.skills-container {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  min-height: calc(100vh - 15vh);
-  margin: 0 50px;
-  /* padding-top: 18vh; */
-  padding-top: 90px;
-}
-
 .skills-heading {
-    position: absolute;
-    margin: 0 -50px;
-    margin-top: 20px;
+    /* position: absolute; */
+    /* margin: 0 -50px; */
+    /* margin-top: 20px; */
+    padding-top: 80px;
     margin-left: 8vw;
+    margin-bottom: 50px;
 }
 
 .skills-heading h2 {
     font-family: "Raleway", sans-serif;
     font-size: 2.5rem;
     font-weight: 300;
+    display: inline-block;
     border-top: 1px solid var(--theme-one);
+}
+
+.skills-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  min-height: 70vh;
+  margin: 0 50px;
+  /* padding-top: 18vh; */
+  /* padding-top: 90px; */
 }
 
 .skill-box {
