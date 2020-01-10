@@ -34,7 +34,7 @@ h1 {
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 500;
     margin-top: 0;
     margin-bottom: 1rem;
@@ -112,10 +112,15 @@ h3 {
     padding-top: 60vh;
 }
 
+.home-title h3 {
+    font-weight: 300;
+}
+
 .about-heading {
     /* position: absolute;*/
     padding-top: 80px;
     margin-left: 8vw;
+    margin-bottom: 30px;
 }
 
 .about-heading h2 {
@@ -261,9 +266,9 @@ h3 {
 }
 
 .contact-container {
-    max-height: 100vh - 50px;
+    /* max-height: 100vh - 50px; */
     /* padding-top: 100px; */
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .contact-container h3 {
@@ -279,12 +284,12 @@ h3 {
 }
 
 .form-container h3 {
-    margin: 3rem 0;
+    margin: 2.5rem 0;
 }
 
 form {
     display: grid;
-    grid-gap: 12px;
+    grid-gap: 9px;
    /*  grid-template-columns: 2fr 1fr; */
 }
 
@@ -344,6 +349,7 @@ textarea {
 
 #radio-label {
     margin-top: 10px;
+    font-weight: 400;
 }
 
 .radio-container h4 {
@@ -355,6 +361,10 @@ textarea {
     /* margin-right: 5vw; */
     /* position: relative; */
     text-align: center;
+}
+
+#form-button .btn {
+    font-size: 1rem;
 }
 
 #form-button > button.btn:hover {
