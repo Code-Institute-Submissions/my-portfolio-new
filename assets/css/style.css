@@ -677,7 +677,6 @@ button:hover, button:focus {
         border: none;
         width: 100%;
         margin: 0;
-        padding-bottom: 30px;
     }
 
     .form-container h3 {
