@@ -555,7 +555,7 @@ button:hover, button:focus {
     }
 
     .contact-container {
-        max-height: 100vh - 50px;
+        /* max-height: 100vh - 50px; */
         /* padding-top: 10vh; */
     }
 
