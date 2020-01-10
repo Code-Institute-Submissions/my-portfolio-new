@@ -328,7 +328,7 @@ textarea {
 
 input,
 textarea {
-    width: 100%;
+    /* width: 100%; */
     box-sizing: border-box;
     font-family: inherit;
     font-size: 1.2em;
@@ -489,7 +489,7 @@ button:hover, button:focus {
     }
 
     .self-promo p {
-        margin-bottom: 1rem;
+        margin: 1rem 0;
     }
 
     .self-image {
