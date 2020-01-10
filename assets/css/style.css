@@ -472,6 +472,7 @@ button:hover, button:focus {
 
     .about-heading {
         margin-left: 5vw;
+        padding-top: 50px;
     }
 
     .about-container {
@@ -503,12 +504,13 @@ button:hover, button:focus {
     }
 
     .skills-heading {
-        margin-left: 5vw;
+        margin-left: 20px;
+        padding-top: 50px;
     }
 
     .skills-container {
         padding: 0 20px;
-        margin: 0;
+        margin: 0 0 50px 0;
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -528,7 +530,8 @@ button:hover, button:focus {
     }
 
     .projects-heading {
-        margin-left: 5vw;
+        margin-left: 20px;
+        padding-top: 50px;
     }
 
     .projects-container {
