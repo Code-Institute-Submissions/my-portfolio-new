@@ -28,65 +28,79 @@ The objective of the design is to create a stripped back minimalist appearance w
 Employers and Collaborators who have established an interest in my skills can easily browse through my work to date, as well as reading a little about me before potentially opting to make contact.
 
 ### Structure
-Of primary importance was for visitors to be able to see my past projects. The projects section displays a selection of past projects with a brief description of main technologies used. Each project is linked to a GitHub repository. My LinkedIn & GitHub profile pages are also linked alongside a downloadable PDF of my CV.
+Of primary importance was for visitors to be able to see my work to date. The projects section displays a selection of past projects with a brief description of the main technologies used. Each project is linked to a GitHub repository. My LinkedIn & GitHub profile pages are also linked alongside a downloadable PDF of my CV.
 
 ### Skeleton
 [Wireframe](https://github.com/elkrojo/my-portfolio-new/blob/master/mock-up/my_port_desktop.jpeg)
 
+### Surface
+The colour palette was chosen to create easily readable content with added minimal flourishes by way of a pale green contrast.
+
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+**Responsive Navbar** - provides users with a less cluttered screen when viewing through portable devices, by collapsing the menu for smaller screen sizes.       
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+**Scroll To Selection** - allows users to navigate through the page by clicking on a navbar location.     
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+The anonymous functions relative to both features mentioned above can be found in the main.js file at the location assets/js/     
 
 ### Features Left to Implement
-- Another feature idea
+For future revisions of the site I will add some section background overlay graphics similar to the home section and complementary to each section subject. I will also add some background contrast between sections to make the page less uniform. The projects section will be constantly updated with new projects as they are completed.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+[HTML5](https://en.wikipedia.org/wiki/HTML5)
+    - The project uses **HTML5** to structure the page contents.        
 
-- [JQuery](https://jquery.com)
+[CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    - The project uses **CSS3** to style the HTML elements.     
+
+[JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The user story scenarios were adressed effectively, where my job relevant information was presented clearly. 
+The About section provides a short introduction which gives some idea of my professionality and personality. 
+The section will resize and even re-shape when the screen size is reduced. 
+Visitors can browse my projects, which are presented as clickable cards. When clicked, a link to the associated GitHub repository will open in a separate browser tab. 
+When hovered over with a pointer on desktop, the cards will display a darker font colour as well as a glowing pale green box shadow. 
+My social media profiles can be accessed by links within relative font awesome icons located in the footer. My CV is also downloadable via the font awesome download icon located in the footer.        
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+The contact form is sensitive to correctly formatted input by the user. 
+Failure to enter a name, given all other inputs are in order will result in an alert notification. 
+Failure to enter a validly formatted email address, given all other inputs are in order will result in an alert notification. 
+Failure to enter a message, given all other inputs are in order will result in an alert notification. 
+Once all input contents are valid, the page will reload. 
+Any prospective employer, recruiter or collaborator must complete the form appropriately in order to contact me.        
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+All external links will open in a new browser tab. This is achieved by setting the target attribute to "_blank" in the enclosing anchor element. 
+The CV download option is also set to open in a new browser tab. From here, the user has the ability to preview the CV before optionally downloading. 
+All external links have been manually tested, and have been confirmed to correctly point to their respective content.       
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+When clicked, the navbar locations will cause the page to scroll smoothly to each respective location section.      
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The site was tested on multiple browsers (Chrome, Firefox, Safari) and on a few portable devices (iPhone 5s: Safari, iPad: Safari) to assess compatibility and responsiveness. 
+While testing, I noticed that the home section was overlapping with the about section when in landscape orientation on iPhone 5s. I was able to correct this by setting a min-height value of 100vh to the home section.        
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The site is hosted through GitHub pages and is synced to the master branch of the repository. 
+This means that the latest push to the master branch will update the live site automatically. 
+The process for initial deployment is as follows - On the repository GitHub page, click the settings tab located on the far right of the menu. 
+Scroll down to the section titled GitHub Pages and select "master branch" as the source. 
+The site deploys once a source is selected and a url link is accessible below the GitHib Pages section title.       
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+To run the code in this project locally, you can clone the full contents of the repository. 
+In your terminal, navigate to the directory you want the repository located and paste this command:      
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+`git clone https://github.com/elkrojo/my-portfolio-new.git`        
 
+Once cloned, you can remove all connection to the source repository using the command:       
+
+`git remote rm origin`       
 
 ## Credits
 
