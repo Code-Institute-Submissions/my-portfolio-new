@@ -13,10 +13,13 @@ Use this section to provide insight into your UX process, focusing on who this w
 
 As an employer or collaborator, I want to see evidence of past projects completed, so that I can get a sense of Ronan's level of ability.
 
-![Work Showcase](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/portfolio-projects.png "Work Showcase")
+![Project Showcase](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/portfolio-projects.png "Project Showcase")
 
 
-- As an recruiter, I want to have access to Ronan's CV, so that I can match Ronan to suitable job opportunities.
+As an recruiter, I want to have access to Ronan's CV, so that I can match Ronan to suitable job opportunities.
+
+![Skills](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/cv-skills.png "Skills")
+![Education](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/cv-education.png "Education")
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
