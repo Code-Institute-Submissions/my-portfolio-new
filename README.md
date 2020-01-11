@@ -75,18 +75,18 @@ Visitors can browse my projects, which are presented as clickable cards. When cl
 When hovered over with a pointer on desktop, the cards will display a darker font colour as well as a glowing pale aquamarine box shadow. 
 My social media profiles can be accessed by links within relative font awesome icons located in the footer. My CV is also downloadable via the font awesome download icon located in the footer.        
 
+When clicked, the navbar locations will cause the page to scroll smoothly to each respective location section.      
+
+All external links will open in a new browser tab. This is achieved by setting the target attribute to "_blank" in the enclosing anchor element. 
+The CV download option is also set to open in a new browser tab. From here, the user has the ability to preview the CV before optionally downloading. 
+All external links have been manually tested, and have been confirmed to correctly point to their respective content.       
+
 The contact form is sensitive to correctly formatted input by the user. 
 Failure to enter a name, given all other inputs are in order will result in an alert notification. 
 Failure to enter a validly formatted email address, given all other inputs are in order will result in an alert notification. 
 Failure to enter a message, given all other inputs are in order will result in an alert notification. 
 Once all input contents are valid, the page will reload. 
 Any prospective employer, recruiter or collaborator must complete the form appropriately in order to contact me.        
-
-All external links will open in a new browser tab. This is achieved by setting the target attribute to "_blank" in the enclosing anchor element. 
-The CV download option is also set to open in a new browser tab. From here, the user has the ability to preview the CV before optionally downloading. 
-All external links have been manually tested, and have been confirmed to correctly point to their respective content.       
-
-When clicked, the navbar locations will cause the page to scroll smoothly to each respective location section.      
 
 The site was tested on multiple browsers (Chrome, Firefox, Safari) and on a few portable devices (iPhone 5s: Safari, iPad: Safari) to assess compatibility and responsiveness. 
 While testing, I noticed that the home section was overlapping with the about section when in landscape orientation on iPhone 5s. I was able to correct this by setting a min-height value of 100vh to the home section.        
@@ -110,18 +110,20 @@ Once cloned, you can remove all connection to the source repository using the co
 
 ## Credits
 
-### Helpful Resources
-Responsive Navbar: https://codepen.io/tutsplus/pen/ZdRdZM <br />
-Traversy Grid Website: https://codepen.io/bradtraversy/pen/gvMGyB <br />
-Various Grid Positioning Rules: https://css-tricks.com <br />
-Grid Form Layout: https://codepen.io/tutsplus/pen/eWXyYY <br />
-
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+All written content throughout this site was authored by me.
 
 ### Media
-- The photos used in this site were obtained from ...
+The graphic overlay png file featured in the home section was taken from a freely distrubuted online source. Exact source unknown. 
+The image was given some treatment in GIMP to apply a gradient fade to opaque at the left and bottom edges.
+The portrait image was provided by me.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+The grid layout for the site is based on [this codepen](https://codepen.io/bradtraversy/pen/gvMGyB).        
+
+The responsive/collapsing navbar is based on [this codepen](https://codepen.io/tutsplus/pen/ZdRdZM).               
+
+Various other grid hints and tips came from [here](https://css-tricks.com).
+
+Plus countless visits to stack overflow to addess minor issues.
