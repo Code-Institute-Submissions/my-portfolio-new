@@ -9,17 +9,19 @@ The purpose of this portfolio website is to provide a best first impression when
  
 ## UX
  
-As an employer or collaborator, I want to see evidence of past projects completed, so that I can get a sense of Ronan's level of ability.
+As an employer/collaborator, I want to see evidence of past projects completed, so that I can get a sense of Ronan's level of ability.
 
-![Project Showcase](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/portfolio-projects.png "Project Showcase")
+![Project Showcase](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/portfolio-projects.png "Project Showcase")     
 
 
 As an recruiter, I want to have access to Ronan's CV, so that I can match Ronan to suitable job opportunities.
 
 ![Skills](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/cv-skills.png "Skills")
-![Education](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/cv-education.png "Education")
+![Education](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/cv-education.png "Education")     
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+As an employer/collaborator, I want to be able to contact Ronan promptly about any jobs I could hire him for or projects I could use his input on.
+
+![Contact]( "Contact") 
 
 ### Strategy
 The objective of the design is to create a stripped back minimalist appearance with easily accessible information throughout.
@@ -34,7 +36,7 @@ Of primary importance was for visitors to be able to see my work to date. The pr
 [Wireframe](https://github.com/elkrojo/my-portfolio-new/blob/master/mock-up/my_port_desktop.jpeg)
 
 ### Surface
-The colour palette was chosen to create easily readable content with added minimal flourishes by way of a pale green contrast.
+The concrete/asphalt colour palette was chosen to create easily readable content with added minimal flourishes by way of a pale aquamarine contrast.
 
 ## Features
 
@@ -66,7 +68,7 @@ The user story scenarios were adressed effectively, where my job relevant inform
 The About section provides a short introduction which gives some idea of my professionality and personality. 
 The section will resize and even re-shape when the screen size is reduced. 
 Visitors can browse my projects, which are presented as clickable cards. When clicked, a link to the associated GitHub repository will open in a separate browser tab. 
-When hovered over with a pointer on desktop, the cards will display a darker font colour as well as a glowing pale green box shadow. 
+When hovered over with a pointer on desktop, the cards will display a darker font colour as well as a glowing pale aquamarine box shadow. 
 My social media profiles can be accessed by links within relative font awesome icons located in the footer. My CV is also downloadable via the font awesome download icon located in the footer.        
 
 The contact form is sensitive to correctly formatted input by the user. 
