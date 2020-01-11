@@ -5,14 +5,18 @@
 Project 1 - User Centric Front End Development (Code Institute 2020)
 
 <!-- Essentially, this part is your sales pitch. -->
-The purpose of this website is to provide a best first impression when visited by potential employers or collaborators.
+The purpose of this portfolio website is to provide a best first impression when visited by potential employers or collaborators. Visitors will be able to meet me briefly through my short bio, browse my skills, see my projects and contact me with minimal effort.
  
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+- As an employer or collaborator, I want to see evidence of past projects completed, so that I can get a sense of Ronan's level of ability.
+
+![Work Showcase](https://raw.githubusercontent.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/master/assets/images/showcase.png "Work Showcase")
+
+
+- As an recruiter, I want to have access to Ronan's CV, so that I can match Ronan to suitable job opportunities.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
