@@ -7,6 +7,10 @@ Project 1 - User Centric Front End Development (Code Institute 2020)
 <!-- Essentially, this part is your sales pitch. -->
 The purpose of this portfolio website is to provide a best first impression when visited by potential employers or collaborators. Visitors will be able to meet me briefly through my short bio, browse my skills, see my projects and contact me with minimal effort.
  
+ ## Demo
+Clicking the image below will bring you to a live demo.
+[![Home](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/home-section.png)](https://elkrojo.github.io/my-portfolio-new/)
+
 ## UX
  
 As an employer/collaborator, I want to see evidence of past projects completed, so that I can get a sense of Ronan's level of ability.
@@ -37,10 +41,6 @@ Of primary importance was for visitors to be able to see my work to date. The pr
 
 ### Surface
 The concrete/asphalt colour palette was chosen to create easily readable content with added minimal flourishes by way of a pale aquamarine contrast.
-
-## Demo
-Clicking the image below will bring you to a live demo.
-[![Home](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/home-section.png)](https://elkrojo.github.io/my-portfolio-new/)
 
 ## Features
 
