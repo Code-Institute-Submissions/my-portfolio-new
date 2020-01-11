@@ -11,9 +11,9 @@ The purpose of this portfolio website is to provide a best first impression when
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-- As an employer or collaborator, I want to see evidence of past projects completed, so that I can get a sense of Ronan's level of ability.
+As an employer or collaborator, I want to see evidence of past projects completed, so that I can get a sense of Ronan's level of ability.
 
-![Work Showcase](https://raw.githubusercontent.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/master/assets/images/showcase.png "Work Showcase")
+![Work Showcase](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/portfolio-projects.png "Work Showcase")
 
 
 - As an recruiter, I want to have access to Ronan's CV, so that I can match Ronan to suitable job opportunities.
