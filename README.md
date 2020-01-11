@@ -14,14 +14,14 @@ As an employer/collaborator, I want to see evidence of past projects completed, 
 ![Project Showcase](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/portfolio-projects.png "Project Showcase")     
 
 
+As an employer/collaborator, I want to be able to contact Ronan promptly about any jobs I could hire him for or projects I could use his input on.
+
+![Contact](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/contact-form.png "Contact")
+
 As an recruiter, I want to have access to Ronan's CV, so that I can match Ronan to suitable job opportunities.
 
 ![Skills](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/cv-skills.png "Skills")
-![Education](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/cv-education.png "Education")     
-
-As an employer/collaborator, I want to be able to contact Ronan promptly about any jobs I could hire him for or projects I could use his input on.
-
-![Contact](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/contact-form.png "Contact") 
+![Education](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/cv-education.png "Education")      
 
 ### Strategy
 The objective of the design is to create a stripped back minimalist appearance with easily accessible information throughout.
@@ -37,6 +37,9 @@ Of primary importance was for visitors to be able to see my work to date. The pr
 
 ### Surface
 The concrete/asphalt colour palette was chosen to create easily readable content with added minimal flourishes by way of a pale aquamarine contrast.
+
+## Demo
+[![Home]()](https://elkrojo.github.io/my-portfolio-new/)
 
 ## Features
 
