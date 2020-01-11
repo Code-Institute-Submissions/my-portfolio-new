@@ -39,7 +39,8 @@ Of primary importance was for visitors to be able to see my work to date. The pr
 The concrete/asphalt colour palette was chosen to create easily readable content with added minimal flourishes by way of a pale aquamarine contrast.
 
 ## Demo
-[![Home]()](https://elkrojo.github.io/my-portfolio-new/)
+Clicking the image below will bring you to a live demo.
+[![Home](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/home-section.png)](https://elkrojo.github.io/my-portfolio-new/)
 
 ## Features
 
