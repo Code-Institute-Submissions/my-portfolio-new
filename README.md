@@ -9,8 +9,6 @@ The purpose of this portfolio website is to provide a best first impression when
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 As an employer or collaborator, I want to see evidence of past projects completed, so that I can get a sense of Ronan's level of ability.
 
 ![Project Showcase](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/portfolio-projects.png "Project Showcase")
@@ -22,6 +20,18 @@ As an recruiter, I want to have access to Ronan's CV, so that I can match Ronan 
 ![Education](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/cv-education.png "Education")
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+
+### Strategy
+The objective of the design is to create a stripped back minimalist appearance with easily accessible information throughout.
+
+### Scope
+Employers and Collaborators who have established an interest in my skills can easily browse through my work to date, as well as reading a little about me before potentially opting to make contact.
+
+### Structure
+Of primary importance was for visitors to be able to see my past projects. The projects section displays a selection of past projects with a brief description of main technologies used. Each project is linked to a GitHub repository. My LinkedIn & GitHub profile pages are also linked alongside a downloadable PDF of my CV.
+
+### Skeleton
+[Wireframe](https://github.com/elkrojo/my-portfolio-new/blob/master/mock-up/my_port_desktop.jpeg)
 
 ## Features
 
