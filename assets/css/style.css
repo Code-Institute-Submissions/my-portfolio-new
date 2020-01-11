@@ -94,7 +94,7 @@ h3 {
 }
 
 .home-container {
-    /* height: 100vh; */
+    min-height: 100vh;
     background: url(../img/neural_network_fade.png);
     background-size: cover;
     background-position: center;
