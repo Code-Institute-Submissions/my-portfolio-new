@@ -21,7 +21,7 @@ As an recruiter, I want to have access to Ronan's CV, so that I can match Ronan 
 
 As an employer/collaborator, I want to be able to contact Ronan promptly about any jobs I could hire him for or projects I could use his input on.
 
-![Contact]( "Contact") 
+![Contact](https://raw.githubusercontent.com/elkrojo/my-portfolio-new/master/assets/img/contact-form.png "Contact") 
 
 ### Strategy
 The objective of the design is to create a stripped back minimalist appearance with easily accessible information throughout.
